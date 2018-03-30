@@ -9,6 +9,7 @@
 		<module>async-core</module>
 		<module>async-task</module>
 		<module>async-action</module>
+		<module>async-excel</module>
 	</modules>
 	<build>
 		<plugins>
