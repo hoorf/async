@@ -26,7 +26,7 @@ public abstract class AbstractTaskManager {
 	private static Task getTaskByKey(String key) {
 		Task result = queue.stream().filter(x -> key.equals(x.getTaskKey())).findFirst().orElse(null);
 		if (result == null) {
-			throw new IllegalArgumentException("task ²»´æÔÚ");
+			throw new IllegalArgumentException("task");
 		}
 		return result;
 	}
